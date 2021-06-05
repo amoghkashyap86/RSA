@@ -1,0 +1,15 @@
+{
+  "name": "rsa",
+  "version": "1.0.0",
+  "description": "encryption and decryption the text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "amogh kashyap",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-rsa": "^1.1.1"
+  }
+}

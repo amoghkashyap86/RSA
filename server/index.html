@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .parent{
+            
+            display: flex;
+             align-items: center;
+             justify-content: center;
+             padding: 20px;
+             background-color: white;
+             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+             border-radius: 15px;
+             margin: 2rem auto;
+             padding: 1rem;
+             width: 90%;
+             max-width: 40rem;
+            
+        }
+        .parent input{
+            /* display: flex;
+             align-items: center;
+             justify-content: center; */
+             font: inherit;
+  display: block;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+
+        }
+        .parent label{
+            display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+        }
+        .parent input:focus{
+            outline: none;
+            border-color: #4f005f;
+        }
+
+        html{
+            background-color: #1f1f1f;
+
+        }
+        .parent button{
+            font: inherit;
+  border: 1px solid #4f005f;
+  background: #4f005f;
+  color: white;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+            
+
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+
+   
+    <form method="POST" action="/encrypt">
+        <label for="name">Insert data</label>
+     <input type="text" name="name" id="name">
+     <button type="submit">click</button>
+    </form>
+</div>
+</body>
+</html>
